@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .underline-effect {
+    @apply heading-text relative p-0;
+  }
+
+  .underline-effect::after {
+    @apply absolute bottom-[-4px] left-0 h-0.5 w-full origin-bottom-right scale-x-0 bg-gradient-to-br from-[#e63946] to-[#1d3557] transition-transform duration-300 content-[''] hover:origin-bottom-left hover:scale-x-100;
+  }
+
+  .heading-text {
+    @apply text-gray-900 hover:bg-gradient-to-br from-[#e63946] to-[#1d3557] hover:bg-clip-text hover:text-transparent;
+  }
+
+  .toggle-gradient {
+    @apply bg-gradient-to-br from-[#e63946] to-[#1d3557] bg-clip-text text-transparent;
+  }
+}
