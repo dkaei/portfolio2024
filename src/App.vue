@@ -72,7 +72,7 @@ const pauseVideo = () => {
                 <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
               </div>
               <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">View resume<span aria-hidden="true"> &rarr;</span></a>
+                <a href="https://drive.google.com/file/d/1SBT4wsplLRpM9yXCPzkeYBJsQnpJp4TS/view" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">View resume<span aria-hidden="true"> &rarr;</span></a>
               </div>
             </div>
           </div>
@@ -467,7 +467,7 @@ const pauseVideo = () => {
             <p class="mb-5 text-lg text-gray-900 font-medium text-center lg:text-xl">
               Contact form
             </p>
-            <form class="max-w-sm mx-auto">
+            <form class="max-w-sm mx-auto px-4 sm:px-2">
               <div class="mb-5">
                 <label for="name-input" class="block mb-2 text-sm font-medium text-gray-900">Name</label>
                 <input type="text" id="name-input" class="block w-full p-2 text-gray-900 border border-gray-400 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500">
